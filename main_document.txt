@@ -9,6 +9,10 @@ Program requirements:
 - program must know which challenges should not be chosen for specific species (like Stealth Mastery for Trolls)
 - program must know which combos have been chosen already if user
 wants to pick more than one challenge
+- program must check at beginning if all species and backgrounds
+have their descriptions
+- program must check if all bad combos can be combined with provided
+species and backgrounds
 
 Database files requirements:
 - when importing database files program has to ignore empty lines and lines starting with # char

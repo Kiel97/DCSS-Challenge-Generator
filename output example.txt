@@ -1,0 +1,32 @@
+#This is how DCSS Challenge Generator should export text
+
+#For only 1 asked challenge
+[Challenge]
+
+Gargoyle Necromancer (GrNe) - Control your skills
+
+* Tier 1: Enter lair with all skills less than 10.0.
+* Tier 2: Get your first rune with all skills less than 15.0.
+* Tier 3: Finish the game with the level 27 necromancy title (Gargoyle of Death).
+
+-----------------------------------------------------------------
+
+#For 2 or more
+[Challenge No.1]
+
+Draconian Summoner (DrSu) - Out of order branches
+
+* Tier 1: Reach d:15 before entering lair or orc.
+* Tier 2: Reach elf:3 before entering any rune branches.
+* Tier 3: Reach depths:5 without having entered vaults.
+
+
+[Challenge No.2]
+
+Vampire Enchanter (VpEn) - The Unseen
+
+* Tier 1: Reach lair with 12 stealth and with stealth as your highest skill.
+* Tier 2: Get your first rune with 20 stealth and with stealth as your highest skill
+* Tier 3: Win the game with the stealth title and 27 stealth.
+
+-------------------------------------------------------------------
