@@ -1,0 +1,9 @@
+Name: Out of order branches
+Tier1: Reach d:15 before entering lair or orc.
+Tier2: Reach elf:3 before entering any rune branches.
+Tier3: Reach depths:5 without having entered vaults.
+
+Name: The Unseen
+Tier1: Reach lair with 12 stealth and with stealth as your highest skill.
+Tier2: Get your first rune with 20 stealth and with stealth as your highest skill
+Tier3: Win the game with the stealth title and 27 stealth.
