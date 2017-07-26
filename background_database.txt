@@ -1,0 +1,23 @@
+Fi Fighter
+Gl Gladiator
+Mo Monk
+Hu Hunter
+As Assassin
+Ar Artificer
+Wn Wanderer
+Be Berserker
+AK Abyssal Knight
+CK Chaos Knight
+Sk Skald
+Tm Transmuter
+Wr Warper
+AM Arcane Marksman
+En Enchanter
+Wz Wizard
+Cj Conjurer
+Su Summoner
+Ne Necromancer
+FE Fire Elementalist
+IE Ice Elementalist
+AE Air Elementalist
+EE Earth Elementalist
