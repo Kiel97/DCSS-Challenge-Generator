@@ -11,17 +11,9 @@ species_description = {"Hu":"Human", "DE":"Deep Elf", "Fo":"Formicid"}
 backgrounds_description = {"Fi":"Fighter", "Wz":"Wizard", "AK":"Abyssal Knight",
                         "FE":"Fire Elementalist"}
 
-#Functions with creates list of sets' keys
-def prepSpecies(species_desc):
-    return list(species_desc.keys())
-
-def prepBackgrounds(backgrounds_desc):
-    return list(backgrounds_desc.keys())
-
-
-#Species and backgrounds 2-char database
-species = prepSpecies(species_description)
-backgrounds = prepBackgrounds(backgrounds_description)
+#Species and backgrounds keys database
+species = list(species_description.keys())
+backgrounds = list(backgrounds_description.keys())
 
 #List of impossible to choose combos or ones with very low attidute
 bad_combos = ["DEFi", "DEAK", "FoFE"]
