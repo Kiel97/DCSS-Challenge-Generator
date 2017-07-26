@@ -5,17 +5,27 @@
 #Importing choice function which pick one element from list
 from random import choice
 
-#Species and backgrounds 2-char database
-species = ["Hu","DE","Fo"]
-backgrounds = ["Fi","Wz","AK","FE"]
 
 #Description of imported species and backgrounds
 species_description = {"Hu":"Human", "DE":"Deep Elf", "Fo":"Formicid"}
 backgrounds_description = {"Fi":"Fighter", "Wz":"Wizard", "AK":"Abyssal Knight",
                         "FE":"Fire Elementalist"}
 
+#Functions with creates list of sets' keys
+def prepSpecies(species_desc):
+    return list(species_desc.keys())
+
+def prepBackgrounds(backgrounds_desc):
+    return list(backgrounds_desc.keys())
+
+
+#Species and backgrounds 2-char database
+species = prepSpecies(species_description)
+backgrounds = prepBackgrounds(backgrounds_description)
+
 #List of impossible to choose combos or ones with very low attidute
 bad_combos = ["DEFi", "DEAK", "FoFE"]
+
 
 def pickCombo():
     species_chosen = choice(species)
@@ -34,4 +44,10 @@ def pickCombo():
 
     return output
 
-print(pickCombo())
+def main():
+    amount = int(input("How many combos you want to generate? "))
+    for i in range(amount):
+        print(pickCombo())
+
+
+main()
