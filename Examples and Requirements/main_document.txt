@@ -19,4 +19,4 @@ Database files requirements:
 
 Other:
 - bad combo is that combo which is impossible to pick (like Ghoul Transmuter)
-- bad challenge is that challenge which is impossible to accomplish with very low attidute -3 or below (like Stealth Mastery for Troll)
+- bad challenge is that challenge which is almost impossible to accomplish with very low attidute -3 or below (like Stealth Mastery for Troll)
