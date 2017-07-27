@@ -2,76 +2,89 @@ Name: The Conqueror
 Tier1: Reach Lair with Fighting skill level 10 and Fighting title
 Tier2: Acquire first rune with Fighting skill level 20 and Fighting title
 Tier3: Win game with Fighting skill level 27 and Fighting title
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: Master of Unarmed Combat
 Tier1: Reach Lair with Unarmed Combat skill level 10 and Unarmed Combat title
 Tier2: Acquire first rune with Unarmed Combat skill level 20 and Unarmed Combat title
 Tier3: Win game with Unarmed Combat skill level 27 and Unarmed Combat title
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: The Balista
 Tier1: Reach Lair with Throwing skill level 10 and Throwing title
 Tier2: Acquire first rune with Throwing skill level 20 and Throwing title
 Tier3: Win game with Throwing skill level 27 and Throwing title
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: The Invulnerable
 Tier1: Reach Lair with Armour skill level 10 and Armour title
 Tier2: Acquire first rune with Armour skill level 20 and Armour title
 Tier3: Win game with Armour skill level 27 and Armour title
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: The Intangible
 Tier1: Reach Lair with Dodging skill level 10 and Dodging title
 Tier2: Acquire first rune with Dodging skill level 20 and Dodging title
 Tier3: Win game with Dodging skill level 27 and Dodging title
-Ban: 
+BanSpecies: 
+BanBackgrounds:
 
 Name: The Archmage
 Tier1: Reach Lair with Spellcasting skill level 10 and Spellcasting title
 Tier2: Acquire first rune with Spellcasting skill level 20 and Spellcasting title
 Tier3: Win game with Spellcasting skill level 27 and Spellcasting title
-Ban: Tr
+BanSpecies: Tr
+BanBackgrounds:
 
 Name: The Ninja
 Tier1: Reach Lair with Stealth skill level 10 and Stealth title
 Tier2: Acquire first rune with Stealth skill level 20 and Stealth title
 Tier3: Win game with Stealth skill level 27 and Stealth title
-Ban: Tr
+BanSpecies: Tr
+BanBackgrounds:
 
 Name: Too lazy to train
 Tier1: Reach Lair with all skills below level 10
 Tier2: Acquire first rune with all skills below level 15
 Tier3: Win game with all skills below level 20
-Ban: Fo
+BanSpecies: Fo
+BanBackgrounds:
 
 Name: Ruthless Efficency
 Tier1: Reach the last level of the Lair before reaching experience level 12
 Tier2: Find a rune before reaching experience level 14
 Tier3: Win the game before reaching experience level 19
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: The Shapeless
 Tier1: Reach Lair with Transmutation skill level 10 and Transmutation title
 Tier2: Acquire first rune with Transmutation skill level 20 and Transmutation title
 Tier3: Win game with Transmutation skill level 27 and Transmutation title
-Ban: Mu Gh
+BanSpecies: Mu Gh
+BanBackgrounds:
 
 Name: Lorekeeper
 Tier1: Reach the last level of the Lair without raising any skill to 13
 Tier2: Win without raising any skill to 20
 Tier3: Win without raising any skill to 13
-Ban: Fo
+BanSpecies: Fo
+BanBackgrounds:
 
 Name: Vow of Courage
 Tier1: Kill Sigmund before entering the Depths
 Tier2: Get four runes before entering the Depths
 Tier3: Get six runes before entering the Depths
-Ban:
+BanSpecies:
+BanBackgrounds:
 
 Name: Brute Force
 Tier1: Reach the last level of the Lair without worshipping a god
 Tier2: Find a rune without worshipping a god
 Tier3: Win a game without worshipping a god
-Ban: Dg
+BanSpecies: Dg
+BanBackgrounds: Be AK CK
