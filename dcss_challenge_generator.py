@@ -3,45 +3,42 @@
 from random import choice
 import sys
 
-def import_species(filename):
-    """Imports species from file to dictionary"""
-    print("Importing species...",end="")
+def import_database(filename):
+    """Imports database from file to dictionary"""
+    print("Importing %s..." % filename[:-12],end="")
     
     try:
         file = open(filename,"r")
     except FileNotFoundError:
-        print("Failure!\nFile not found! Check if name of file is species_database.txt")
+        print("Failure!\nFile not found! Check if name of file is %s" % filename)
         input("Press any key to exit.")
         sys.exit(1)
 
-    species = {}
+    dictionary = {}
+    iteration = 0
+    
     for line in file:
+        iteration += 1
         line = line.strip().split(" ", maxsplit=1)
 
         if len(line[0]) != 2:
-            print("Failure!\nGiven species' shortcut is not 2-char! Correct it in species_database.txt file!") 
+            print("Failure!\n%s (line %d) is not 2-char! Correct it in %s file!" % (line[0],iteration,filename)) 
             input("Press any key to exit.")
             sys.exit(2)
 
-        species[line[0]] = line[1]               
-    
+        dictionary[line[0]] = line[1]
+        
     file.close()
     print("Done!")
     
-    return species
-
-def import_backgrounds(filename):
-    """Imports backgrounds from file to dictionary"""
-    backgrounds = {}
-    return backgrounds
+    return dictionary
 
 def main():
     """This is where program starts"""
 
-    species_database = import_species("species_database.txt")
-    backgrounds_database = import_backgrounds("background_database.txt")
-
-    
+    species_database = import_database("species_database.txt")
+    backgrounds_database = import_database("background_database.txt")
+ 
     print("Thank you for using this software!")
     input("Press any key to exit.")
 
