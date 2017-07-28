@@ -66,15 +66,53 @@ def import_non_available_combos(filename):
 
     file.close()
     print("Done!")
+    
     return list
+
+def import_challenges(filename):
+    """Imports challenges from file to mixed dictionary with lists"""
+    print("Importing challenges...",end="")
+
+    file = open_file(filename)
+
+    dictionary = {}
+
+    while True:
+        challenge_name = file.readline()
+
+        if challenge_name[:5] != "Name:":
+            break
+        challenge_name = challenge_name[6:].strip()
+        
+        challenge_tiers = []
+        for i in range(3):
+            tier = file.readline()
+            tier = tier[6:].strip()
+            challenge_tiers.append(tier)
+
+        banned_species = file.readline()
+        banned_species = banned_species[11:].strip().split(" ")
+
+        banned_backgrounds = file.readline()
+        banned_backgrounds = banned_backgrounds[15:].strip().split(" ")
+
+        dictionary[challenge_name] = [challenge_tiers,banned_species,
+                                      banned_backgrounds]
+        file.readline()
+
+    file.close()
+    print("Done!")
+    
+    return dictionary
 
 def main():
     """This is where program starts."""
 
     species_database = import_to_dictionary("species_database.txt")
     backgrounds_database = import_to_dictionary("background_database.txt")
-
     no_combo_database = import_non_available_combos("nocombo_database.txt")
+    challenges_database = import_challenges("challenge_database.txt")
+
     
     print("Thank you for using this software!")
     input("Press any key to exit.")
