@@ -1,0 +1,24 @@
+Algorithm of DCSS Challenge Generator by Kiel97:
+
+Load species from species_database.txt
+Load backgrounds from backgrounds_database.txt
+Load bad combos from badcombo_database.txt
+Load challenges from challenge_database.txt
+Ask user for amount of generated challenges and store entered value as n
+Create empty generated_challenges.txt
+
+For each challenge to challenge No.n:
+	Choose one challenge from challenges
+	Copy all backgrounds to available backgrounds
+	If challenge contains forbidden backgrounds:
+		For each forbidden background in challenge:
+			Delete forbidden background from available backgrounds
+	Copy all species to available species
+	If challenge contains forbidden species:
+		For each forbidden species in challenge:
+			Delete forbidden species from available species
+	Choose one species from available species until chosen combo is not in bad combos
+	Print to file generated challenge number, chosen combo, name of challenge and tiers 1,2 and 3
+		
+Inform user that generating has been completed
+Thank user for using this crappy software
