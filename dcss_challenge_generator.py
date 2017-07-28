@@ -3,16 +3,25 @@
 from random import choice
 import sys
 
-def import_to_dictionary(filename):
-    """Imports database from file to dictionary"""
-    print("Importing %s..." % filename[:-12],end="")
-    
+
+
+def open_file(filename):
+    """Opens file and check if file exists in generator's directory."""
     try:
         file = open(filename,"r")
     except FileNotFoundError:
         print("Failure!\nFile not found! Check if name of file is %s" % filename)
         input("Press any key to exit.")
         sys.exit(1)
+
+    return file
+
+
+def import_to_dictionary(filename):
+    """Imports database from file to dictionary."""
+    print("Importing %s..." % filename[:-12],end="")
+    
+    file = open_file(filename)
 
     dictionary = {}
     iteration = 0
@@ -34,15 +43,10 @@ def import_to_dictionary(filename):
     return dictionary
 
 def import_non_available_combos(filename):
-    """Imports bad combos database from file to list"""
+    """Imports bad combos database from file to list."""
     print("Importing non available combos...",end="")
 
-    try:
-        file = open(filename,"r")
-    except FileNotFoundError:
-        print("Failure!\nFile not found! Check if name of file is %s" % filename)
-        input("Press any key to exit.")
-        sys.exit(1)
+    file = open_file(filename)
 
     imp_list = []
     iteration = 0
@@ -63,7 +67,7 @@ def import_non_available_combos(filename):
     return imp_list
 
 def main():
-    """This is where program starts"""
+    """This is where program starts."""
 
     species_database = import_to_dictionary("species_database.txt")
     backgrounds_database = import_to_dictionary("background_database.txt")
