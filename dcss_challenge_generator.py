@@ -16,7 +16,7 @@ def import_species(filename):
 
     species = {}
     for line in file:
-        line = line.rstrip().split(" ", maxsplit=1)
+        line = line.strip().split(" ", maxsplit=1)
 
         if len(line[0]) != 2:
             print("Failure!\nGiven species' shortcut is not 2-char! Correct it in species_database.txt file!") 
