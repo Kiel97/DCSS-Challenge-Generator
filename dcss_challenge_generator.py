@@ -30,10 +30,6 @@ def import_species(filename):
     
     return species
 
-def import_backgrounds(filename):
-    """Imports backgrounds from file to dictionary"""
-    pass
-
 def main():
     """This is where program starts"""
 
