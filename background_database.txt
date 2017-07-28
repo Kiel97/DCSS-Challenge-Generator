@@ -21,3 +21,4 @@ FE Fire Elementalist
 IE Ice Elementalist
 AE Air Elementalist
 EE Earth Elementalist
+VM Venom Mage
