@@ -32,13 +32,14 @@ def import_species(filename):
 
 def import_backgrounds(filename):
     """Imports backgrounds from file to dictionary"""
-    pass
+    backgrounds = {}
+    return backgrounds
 
 def main():
     """This is where program starts"""
 
     species_database = import_species("species_database.txt")
-    #print(species_database)
+    backgrounds_database = import_backgrounds("background_database.txt")
 
     
     print("Thank you for using this software!")
