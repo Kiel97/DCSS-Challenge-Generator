@@ -19,7 +19,7 @@ def open_file(filename):
 
 def import_to_dictionary(filename):
     """Imports database from file to dictionary."""
-    print("Importing %s..." % filename[:-12],end="")
+    print("Importing %s..." % filename[:-13],end="")
     
     file = open_file(filename)
 
@@ -49,7 +49,7 @@ def import_non_available_combos(filename):
 
     file = open_file(filename)
 
-    imp_list = []
+    list = []
     iteration = 0
     
     for line in file:
@@ -62,11 +62,11 @@ def import_non_available_combos(filename):
             input("Press any key to exit.")
             sys.exit(2)
             
-        imp_list.append(line)
+        list.append(line)
 
     file.close()
     print("Done!")
-    return imp_list
+    return list
 
 def main():
     """This is where program starts."""
