@@ -24,3 +24,4 @@ Op Octopode
 Fe Felid
 Ba Barachi
 Mu Mummy
+Gn Gnoll
