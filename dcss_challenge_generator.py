@@ -4,7 +4,7 @@ from random import choice
 import sys
 
 def import_species(filename):
-    """Importing species from file to dictonary"""
+    """Importing species from file to dictionary"""
     print("Importing species...",end="")
     
     try:
