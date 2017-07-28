@@ -23,28 +23,28 @@ Name: The Invulnerable
 Tier1: Reach Lair with Armour skill level 10 and Armour title
 Tier2: Acquire first rune with Armour skill level 20 and Armour title
 Tier3: Win game with Armour skill level 27 and Armour title
-BanSpecies:
+BanSpecies: Ce Mf Sp
 BanBackgrounds:
 
 Name: The Intangible
 Tier1: Reach Lair with Dodging skill level 10 and Dodging title
 Tier2: Acquire first rune with Dodging skill level 20 and Dodging title
 Tier3: Win game with Dodging skill level 27 and Dodging title
-BanSpecies: 
+BanSpecies: Ce
 BanBackgrounds:
 
 Name: The Archmage
 Tier1: Reach Lair with Spellcasting skill level 10 and Spellcasting title
 Tier2: Acquire first rune with Spellcasting skill level 20 and Spellcasting title
 Tier3: Win game with Spellcasting skill level 27 and Spellcasting title
-BanSpecies: Tr
-BanBackgrounds:
+BanSpecies: Tr Ce Ha Mi HO
+BanBackgrounds: Be
 
 Name: The Ninja
 Tier1: Reach Lair with Stealth skill level 10 and Stealth title
 Tier2: Acquire first rune with Stealth skill level 20 and Stealth title
 Tier3: Win game with Stealth skill level 27 and Stealth title
-BanSpecies: Tr
+BanSpecies: Tr Ce
 BanBackgrounds:
 
 Name: Too lazy to train
@@ -65,7 +65,7 @@ Name: The Shapeless
 Tier1: Reach Lair with Transmutation skill level 10 and Transmutation title
 Tier2: Acquire first rune with Transmutation skill level 20 and Transmutation title
 Tier3: Win game with Transmutation skill level 27 and Transmutation title
-BanSpecies: Mu Gh
+BanSpecies: Mu Gh Ha HO Tr
 BanBackgrounds:
 
 Name: Lorekeeper
