@@ -3,7 +3,7 @@
 from random import choice
 import sys
 
-
+SHORTCUT_LENGTH = 2
 
 def open_file(filename):
     """Opens file and check if file exists in generator's directory."""
@@ -30,8 +30,9 @@ def import_to_dictionary(filename):
         iteration += 1
         line = line.strip().split(" ", maxsplit=1)
 
-        if len(line[0]) != 2:
-            print("Failure!\n%s (line %d) is not 2-char! Correct it in %s file!" % (line[0],iteration,filename)) 
+        if len(line[0]) != SHORTCUT_LENGTH:
+            print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
+                  % (line[0],iteration,SHORTCUT_LENGTH,filename)) 
             input("Press any key to exit.")
             sys.exit(2)
 
@@ -55,8 +56,9 @@ def import_non_available_combos(filename):
         iteration += 1
         line = line.strip()
 
-        if len(line) != 4:
-            print("Failure!\n%s (line %d) is not 4-char! Correct it in %s file!" % (line,iteration,filename))
+        if len(line) != SHORTCUT_LENGTH*2:
+            print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
+                  % (line,iteration,SHORTCUT_LENGTH*2,filename))
             input("Press any key to exit.")
             sys.exit(2)
             
@@ -73,8 +75,6 @@ def main():
     backgrounds_database = import_to_dictionary("background_database.txt")
 
     no_combo_database = import_non_available_combos("nocombo_database.txt")
-
-    print(no_combo_database)
     
     print("Thank you for using this software!")
     input("Press any key to exit.")
