@@ -4,7 +4,7 @@ from random import choice
 import sys
 
 def import_species(filename):
-    """Importing species from file to dictionary"""
+    """Imports species from file to dictionary"""
     print("Importing species...",end="")
     
     try:
@@ -29,6 +29,10 @@ def import_species(filename):
     print("Done!")
     
     return species
+
+def import_backgrounds(filename):
+    """Imports backgrounds from file to dictionary"""
+    pass
 
 def main():
     """This is where program starts"""
