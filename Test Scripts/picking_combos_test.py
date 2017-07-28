@@ -15,7 +15,7 @@ backgrounds_description = {"Fi":"Fighter", "Wz":"Wizard", "AK":"Abyssal Knight",
 species = list(species_description.keys())
 backgrounds = list(backgrounds_description.keys())
 
-#List of impossible to choose combos or ones with very low attidute
+#List of impossible to choose combos or ones with very low aptidute
 bad_combos = ["DEFi", "DEAK", "FoFE"]
 
 
