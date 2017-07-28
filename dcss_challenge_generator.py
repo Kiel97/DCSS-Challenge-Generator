@@ -58,6 +58,8 @@ def import_non_available_combos(filename):
             
         imp_list.append(line)
 
+    file.close()
+    print("Done!")
     return imp_list
 
 def main():
