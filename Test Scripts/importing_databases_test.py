@@ -32,9 +32,9 @@ def import_from_txt_to_list(filepath):
 
 species = import_from_txt_to_dict("C:/Users/User/Documents/Python Files/DCSS Challenge Generator/species_database.txt")
 backgrounds = import_from_txt_to_dict("C:/Users/User/Documents/Python Files/DCSS Challenge Generator/background_database.txt")
-bad_combos = import_from_txt_to_list("C:/Users/User/Documents/Python Files/DCSS Challenge Generator/badcombo_database.txt")
+no_combos = import_from_txt_to_list("C:/Users/User/Documents/Python Files/DCSS Challenge Generator/nocombo_database.txt")
 
 print("\n\nImported stuff:")
 print(species)
 print(backgrounds)
-print(bad_combos)
+print(no_combos)
