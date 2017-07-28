@@ -16,23 +16,14 @@ def import_species(filename):
 
     species = {}
     for line in file:
-        line = line.rstrip().split(" ")
+        line = line.rstrip().split(" ", maxsplit=1)
 
         if len(line[0]) != 2:
             print("Failure!\nGiven species' shortcut is not 2-char! Correct it in species_database.txt file!") 
             input("Press any key to exit.")
             sys.exit(2)
 
-        if len(line) == 2:
-            species[line[0]] = line[1]
-        elif len(line) == 3:
-            species[line[0]] = line[1] + " " + line[2]
-        else:
-            print("Failure!\nInvalid file format! Check if each line of species_database.txt "\
-                  "contains 2 or 3 strings!")
-            input("Press any key to exit.")
-            sys.exit(3)
-               
+        species[line[0]] = line[1]               
     
     file.close()
     print("Done!")
