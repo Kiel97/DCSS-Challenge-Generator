@@ -1,17 +1,5 @@
 #This is how DCSS Challenge Generator should export text
 
-#For only 1 asked challenge
-[Challenge]
-
-Gargoyle Necromancer (GrNe) - Control your skills
-
-* Tier 1: Enter lair with all skills less than 10.0.
-* Tier 2: Get your first rune with all skills less than 15.0.
-* Tier 3: Finish the game with the level 27 necromancy title (Gargoyle of Death).
-
------------------------------------------------------------------
-
-#For 2 or more
 [Challenge No.1]
 
 Draconian Summoner (DrSu) - Out of order branches
