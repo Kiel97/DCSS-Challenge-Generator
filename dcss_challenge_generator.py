@@ -175,13 +175,36 @@ def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
 
     print(chosen_species)
 
-    new_challenge = [chosen_species+chosen_background,chosen_challenge]
+    chosen_combo = species_db[chosen_species] + " " + backgrounds_db[chosen_background]
+
+    new_challenge = [chosen_species+chosen_background,chosen_combo,chosen_challenge]
     new_challenge.append(challenges_db[chosen_challenge][0])
     return new_challenge
 
 def export_challenges(file,generated_challenges):
     """Here all elements of generated list are exported to output file."""
-    pass
+    iteration = 0
+    
+    for challenge in generated_challenges:
+        iteration += 1
+
+        output = "[Challenge No.%d]\n\n" % iteration
+        output += "%s (%s) - %s\n\n" % (challenge[1],challenge[0],challenge[2])
+
+        for tier in range(3):
+            output += "* Tier %d: %s\n" % (tier+1, challenge[3][tier])
+
+        output += "\n"
+
+        print(output)
+        file.write(output)
+
+    #Creating underline for end of export file
+    line = ""
+    for i in range(100):
+        line += "-"
+
+    file.write(line)
 
 def main():
     """This is where program starts."""
@@ -201,8 +224,6 @@ def main():
         end_program(0)
 
     else:
-        output_file = open("output.txt","w")
-
         output_challenges = []
 
         for i in range(number_of_challenges):
@@ -211,6 +232,8 @@ def main():
             print(generated)
             output_challenges.append(generated)
 
+        output_file = open("output.txt","w")
+        
         export_challenges(output_file,output_challenges)
         output_file.close()
 
