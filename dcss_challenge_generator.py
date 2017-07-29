@@ -16,6 +16,10 @@ def open_file(filename):
 
     return file
 
+def end_program(exit_code = 0):
+    """Here program ends both successfully or abnormally."""
+    input("Press any key to exit.")
+    sys.exit(exit_code)
 
 def import_to_dictionary(filename):
     """Imports database from file to dictionary."""
@@ -138,11 +142,6 @@ def ask_number_of_challenges(max_combos):
         amount = int(input("Invalid value! Try again..."))
         
     return amount
-
-def end_program(exit_code = 0):
-    """Here program ends both successfully or abnormally."""
-    input("Press any key to exit.")
-    sys.exit(exit_code)
 
 def main():
     """This is where program starts."""
