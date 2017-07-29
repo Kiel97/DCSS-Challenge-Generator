@@ -214,8 +214,6 @@ def main():
     no_combo_database = import_non_available_combos("nocombo_database.txt")
     challenges_database = import_challenges("challenge_database.txt")
 
-    print(challenges_database)
-
     number_of_challenges = ask_number_of_challenges()
 
     if number_of_challenges == 0:
