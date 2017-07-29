@@ -98,6 +98,7 @@ def import_challenges(filename):
 
         dictionary[challenge_name] = [challenge_tiers,banned_species,
                                       banned_backgrounds]
+        #Skip blank line
         file.readline()
 
     file.close()
