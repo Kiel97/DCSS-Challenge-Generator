@@ -155,14 +155,12 @@ def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     """Here program composes challenge with all required databases."""
     
     chosen_challenge = choice(list(challenges_db.keys()))
-    print(chosen_challenge)
     
     #if challenges_db[chosen_challenge][2] != [""]:
         #for banned_background in challenges_db[chosen_challenge][2]:
             #backgrounds_db.pop[banned_background]
 
     chosen_background = choice(list(backgrounds_db))
-    print(chosen_background)
 
     #if challenges_db[chosen_challenge][1] != [""]:
         #for banned_species in challenges_db[chosen_challenge][1]:
@@ -172,8 +170,6 @@ def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     #while chosen_species+chosen_background in no_combo_db:
         #species_db.pop[chosen_species]
         #chosen_species = choice(list(species_db))
-
-    print(chosen_species)
 
     chosen_combo = species_db[chosen_species] + " " + backgrounds_db[chosen_background]
 
@@ -196,7 +192,6 @@ def export_challenges(file,generated_challenges):
 
         output += "\n"
 
-        print(output)
         file.write(output)
 
     #Creating underline for end of export file
@@ -229,7 +224,6 @@ def main():
         for i in range(number_of_challenges):
             generated = generate_challenge(species_database, backgrounds_database,
                                            no_combo_database, challenges_database)
-            print(generated)
             output_challenges.append(generated)
 
         output_file = open("output.txt","w")
