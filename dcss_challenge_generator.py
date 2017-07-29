@@ -231,7 +231,7 @@ def main():
         export_challenges(output_file,output_challenges)
         output_file.close()
 
-        print("Export ended successfully!")
+        print("\nExport ended successfully!")
         print("Thank you for using this software!")
         end_program(0)
 
