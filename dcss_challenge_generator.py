@@ -10,7 +10,8 @@ def open_file(filename):
     try:
         file = open(filename,"r")
     except FileNotFoundError:
-        print("Failure!\nFile not found! Check if name of file is %s" % filename)
+        print("Failure!\nFile not found! Check if name of file is %s"
+              % filename)
         end_program(1)
 
     return file
@@ -32,7 +33,7 @@ def import_to_dictionary(filename):
         if len(line[0]) != SHORTCUT_LENGTH:
             print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
                   % (line[0],iteration,SHORTCUT_LENGTH,filename)) 
-            end_program(1)
+            end_program(2)
 
         dictionary[line[0]] = line[1]
         
@@ -57,7 +58,7 @@ def import_non_available_combos(filename):
         if len(line) != SHORTCUT_LENGTH*2:
             print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
                   % (line,iteration,SHORTCUT_LENGTH*2,filename))
-            end_program(1)
+            end_program(2)
             
         list.append(line)
 
@@ -93,7 +94,7 @@ def import_challenges(filename):
             if tier[:6] != ("Tier%s:" % str(i+1)):
                 print("Failure!\nExpected 'Tier%s:' data format in %s, challenge No.%d. Correct it!"
                       % (str(i+1), filename, iteration))
-                end_program(1)
+                end_program(2)
             
             tier = tier[6:].strip()
             challenge_tiers.append(tier)
@@ -103,7 +104,7 @@ def import_challenges(filename):
         if banned_species[:11] != "BanSpecies:":
             print("Failure!\nExpected 'BanSpecies:' data format in %s, challenge No.%d. Correct it!"
                       % (filename, iteration))
-            end_program(1)
+            end_program(2)
         
         banned_species = banned_species[11:].strip().split(" ")
 
@@ -112,7 +113,7 @@ def import_challenges(filename):
         if banned_backgrounds[:15] != "BanBackgrounds:":
             print("Failure!\nExpected 'BanBackgrounds:' data format in %s, challenge No.%d. Correct it!"
                       % (filename, iteration))
-            end_program(1)
+            end_program(2)
         banned_backgrounds = banned_backgrounds[15:].strip().split(" ")
 
         dictionary[challenge_name] = [challenge_tiers,banned_species,
