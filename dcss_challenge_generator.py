@@ -4,6 +4,7 @@ from random import choice
 import sys
 
 SHORTCUT_LENGTH = 2
+MAX_COMBOS = 100
 
 def open_file(filename):
     """Opens file and check if file exists in generator's directory."""
@@ -131,16 +132,17 @@ def import_challenges(filename):
     
     return dictionary
 
-def ask_number_of_challenges(max_combos):
+def ask_number_of_challenges():
     """Here program asks for number of challenge to generate"""
 
     print("\n\nHow many challenges you want to generate?")
-    print("Enter number from 1 to %d or enter 0 to exit..." % max_combos)
+    print("Enter number from 1 to %d or enter 0 to exit..." % MAX_COMBOS)
     
     while True:
+        #Checking for valid input
         try:
             amount = int(input("Your choice: "))
-            if amount < 0 or amount > max_combos:
+            if amount < 0 or amount > MAX_COMBOS:
                 raise ValueError
             else:
                 break
@@ -157,10 +159,7 @@ def main():
     no_combo_database = import_non_available_combos("nocombo_database.txt")
     challenges_database = import_challenges("challenge_database.txt")
 
-    maximum_combos_amount = len(species_database)*len(backgrounds_database)
-    maximum_combos_amount -= len(no_combo_database)
-
-    number_of_challenges = ask_number_of_challenges(maximum_combos_amount)
+    number_of_challenges = ask_number_of_challenges()
 
     if number_of_challenges == 0:
         print("You decided not to generate any challenges.")
