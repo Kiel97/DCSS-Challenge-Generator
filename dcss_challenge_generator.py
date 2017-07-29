@@ -11,8 +11,7 @@ def open_file(filename):
         file = open(filename,"r")
     except FileNotFoundError:
         print("Failure!\nFile not found! Check if name of file is %s" % filename)
-        input("Press any key to exit.")
-        sys.exit(1)
+        end_program(1)
 
     return file
 
@@ -33,8 +32,7 @@ def import_to_dictionary(filename):
         if len(line[0]) != SHORTCUT_LENGTH:
             print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
                   % (line[0],iteration,SHORTCUT_LENGTH,filename)) 
-            input("Press any key to exit.")
-            sys.exit(2)
+            end_program(1)
 
         dictionary[line[0]] = line[1]
         
@@ -59,8 +57,7 @@ def import_non_available_combos(filename):
         if len(line) != SHORTCUT_LENGTH*2:
             print("Failure!\n%s (line %d) is not %d-char! Correct it in %s file!"
                   % (line,iteration,SHORTCUT_LENGTH*2,filename))
-            input("Press any key to exit.")
-            sys.exit(2)
+            end_program(1)
             
         list.append(line)
 
@@ -96,8 +93,7 @@ def import_challenges(filename):
             if tier[:6] != ("Tier%s:" % str(i+1)):
                 print("Failure!\nExpected 'Tier%s:' data format in %s, challenge No.%d. Correct it!"
                       % (str(i+1), filename, iteration))
-                input("Press any key to exit.")
-                sys.exit(2)
+                end_program(1)
             
             tier = tier[6:].strip()
             challenge_tiers.append(tier)
@@ -107,8 +103,7 @@ def import_challenges(filename):
         if banned_species[:11] != "BanSpecies:":
             print("Failure!\nExpected 'BanSpecies:' data format in %s, challenge No.%d. Correct it!"
                       % (filename, iteration))
-            input("Press any key to exit.")
-            sys.exit(2)
+            end_program(1)
         
         banned_species = banned_species[11:].strip().split(" ")
 
@@ -117,8 +112,7 @@ def import_challenges(filename):
         if banned_backgrounds[:15] != "BanBackgrounds:":
             print("Failure!\nExpected 'BanBackgrounds:' data format in %s, challenge No.%d. Correct it!"
                       % (filename, iteration))
-            input("Press any key to exit.")
-            sys.exit(2)
+            end_program(1)
         banned_backgrounds = banned_backgrounds[15:].strip().split(" ")
 
         dictionary[challenge_name] = [challenge_tiers,banned_species,
@@ -132,6 +126,23 @@ def import_challenges(filename):
     
     return dictionary
 
+def ask_number_of_challenges(max_combos):
+    """Here program asks for number of challenge to generate"""
+
+    print("\n\nHow many challenges you want to generate?")
+    print("Enter number from 1 to %d" % max_combos, end=" ")
+    amount = int(input("or enter 0 to exit..."))
+    
+    while amount < 0 or amount > max_combos:
+        amount = int(input("Invalid value! Try again..."))
+        
+    return amount
+
+def end_program(exit_code = 0):
+    """Here program ends both successfully or abnormally."""
+    input("Press any key to exit.")
+    sys.exit(exit_code)
+
 def main():
     """This is where program starts."""
 
@@ -139,8 +150,15 @@ def main():
     backgrounds_database = import_to_dictionary("background_database.txt")
     no_combo_database = import_non_available_combos("nocombo_database.txt")
     challenges_database = import_challenges("challenge_database.txt")
-    
-    print("Thank you for using this software!")
-    input("Press any key to exit.")
+
+    maximum_combos_amount = len(species_database)*len(backgrounds_database)
+    maximum_combos_amount -= len(no_combo_database)
+
+    number_of_challenges = ask_number_of_challenges(maximum_combos_amount)
+
+    if number_of_challenges == 0:
+        print("You decided not to generate any challenges.")
+        print("Thank you for using this software!")
+        end_program(0)
 
 main()
