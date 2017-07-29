@@ -153,7 +153,31 @@ def ask_number_of_challenges():
 
 def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     """Here program composes challenge with all required databases."""
-    pass
+    
+    chosen_challenge = choice(list(challenges_db.keys()))
+
+    if challenges_db[chosen_challenge][2] != [""]:
+        for banned_background in challenges_db[chosen_challenge][2]:
+            backgrounds_db.pop(banned_background)
+
+    chosen_background = choice(list(backgrounds_db))
+
+    if challenges_db[chosen_challenge][1] != [""]:
+        for banned_species in challenges_db[chosen_challenge][1]:
+            species_db.pop(banned_species)
+
+    chosen_species = choice(list(species_db))
+    while chosen_species+chosen_background in no_combo_db:
+        species_db.pop(chosen_species)
+        chosen_species = choice(list(species_db))
+
+    new_challenge = [chosen_species+chosen_background,chosen_challenge,
+                     [challenges_db[chosen_challenge[1]]]]
+
+    return new_challenge
+
+                     
+    
 
 def export_challenges(file,generated_challenges):
     """Here all elements of generated list are exported to output file."""
@@ -166,6 +190,8 @@ def main():
     backgrounds_database = import_to_dictionary("background_database.txt")
     no_combo_database = import_non_available_combos("nocombo_database.txt")
     challenges_database = import_challenges("challenge_database.txt")
+
+    print(challenges_database)
 
     number_of_challenges = ask_number_of_challenges()
 
@@ -182,7 +208,7 @@ def main():
         for i in range(number_of_challenges):
             generated = generate_challenge(species_database, backgrounds_database,
                                            no_combo_database, challenges_database)
-
+            print(generated)
             output_challenges.append(generated)
 
         export_challenges(output_file,output_challenges)
