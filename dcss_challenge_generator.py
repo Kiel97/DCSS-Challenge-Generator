@@ -155,29 +155,29 @@ def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     """Here program composes challenge with all required databases."""
     
     chosen_challenge = choice(list(challenges_db.keys()))
-
-    if challenges_db[chosen_challenge][2] != [""]:
-        for banned_background in challenges_db[chosen_challenge][2]:
-            backgrounds_db.pop(banned_background)
+    print(chosen_challenge)
+    
+    #if challenges_db[chosen_challenge][2] != [""]:
+        #for banned_background in challenges_db[chosen_challenge][2]:
+            #backgrounds_db.pop[banned_background]
 
     chosen_background = choice(list(backgrounds_db))
+    print(chosen_background)
 
-    if challenges_db[chosen_challenge][1] != [""]:
-        for banned_species in challenges_db[chosen_challenge][1]:
-            species_db.pop(banned_species)
+    #if challenges_db[chosen_challenge][1] != [""]:
+        #for banned_species in challenges_db[chosen_challenge][1]:
+            #species_db.pop[banned_species]
 
     chosen_species = choice(list(species_db))
-    while chosen_species+chosen_background in no_combo_db:
-        species_db.pop(chosen_species)
-        chosen_species = choice(list(species_db))
+    #while chosen_species+chosen_background in no_combo_db:
+        #species_db.pop[chosen_species]
+        #chosen_species = choice(list(species_db))
 
-    new_challenge = [chosen_species+chosen_background,chosen_challenge,
-                     [challenges_db[chosen_challenge[1]]]]
+    print(chosen_species)
 
+    new_challenge = [chosen_species+chosen_background,chosen_challenge]
+    new_challenge.append(challenges_db[chosen_challenge][0])
     return new_challenge
-
-                     
-    
 
 def export_challenges(file,generated_challenges):
     """Here all elements of generated list are exported to output file."""
