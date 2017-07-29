@@ -135,11 +135,17 @@ def ask_number_of_challenges(max_combos):
     """Here program asks for number of challenge to generate"""
 
     print("\n\nHow many challenges you want to generate?")
-    print("Enter number from 1 to %d" % max_combos, end=" ")
-    amount = int(input("or enter 0 to exit..."))
+    print("Enter number from 1 to %d or enter 0 to exit..." % max_combos)
     
-    while amount < 0 or amount > max_combos:
-        amount = int(input("Invalid value! Try again..."))
+    while True:
+        try:
+            amount = int(input("Your choice: "))
+            if amount < 0 or amount > max_combos:
+                raise ValueError
+            else:
+                break
+        except ValueError:
+            print("Invalid value! Try again!")
         
     return amount
 
