@@ -79,6 +79,7 @@ def import_challenges(filename):
     iteration = 0
 
     while True:
+        #Importing all challenges line by line
         challenge_name = file.readline()
 
         if challenge_name[:5] != "Name:":
