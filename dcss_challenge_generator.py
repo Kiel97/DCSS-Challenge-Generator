@@ -151,6 +151,14 @@ def ask_number_of_challenges():
         
     return amount
 
+def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
+    """Here program composes challenge with all required databases."""
+    pass
+
+def export_challenges(file,generated_challenges):
+    """Here all elements of generated list are exported to output file."""
+    pass
+
 def main():
     """This is where program starts."""
 
@@ -163,6 +171,24 @@ def main():
 
     if number_of_challenges == 0:
         print("You decided not to generate any challenges.")
+        print("Thank you for using this software!")
+        end_program(0)
+
+    else:
+        output_file = open("output.txt","w")
+
+        output_challenges = []
+
+        for i in range(number_of_challenges):
+            generated = generate_challenge(species_database, backgrounds_database,
+                                           no_combo_database, challenges_database)
+
+            output_challenges.append(generated)
+
+        export_challenges(output_file,output_challenges)
+        output_file.close()
+
+        print("Export ended successfully!")
         print("Thank you for using this software!")
         end_program(0)
 
