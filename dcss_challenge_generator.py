@@ -39,7 +39,7 @@ def import_to_dictionary(filename):
         dictionary[line[0]] = line[1]
         
     file.close()
-    print("Done!")
+    print("%d...Done!" % iteration)
     
     return dictionary
 
@@ -65,7 +65,7 @@ def import_non_available_combos(filename):
         list.append(line)
 
     file.close()
-    print("Done!")
+    print("%d...Done!" % iteration)
     
     return list
 
@@ -76,12 +76,16 @@ def import_challenges(filename):
     file = open_file(filename)
 
     dictionary = {}
+    iteration = 0
 
     while True:
         challenge_name = file.readline()
 
         if challenge_name[:5] != "Name:":
             break
+
+        iteration += 1
+        
         challenge_name = challenge_name[6:].strip()
         
         challenge_tiers = []
@@ -102,7 +106,7 @@ def import_challenges(filename):
         file.readline()
 
     file.close()
-    print("Done!")
+    print("%d...Done!" % iteration)
     
     return dictionary
 
