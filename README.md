@@ -14,4 +14,4 @@ databases combines new Tavern's style challenges. Here are some advantages of th
   Or maybe you want to add new feature to program? That's to Python it's very easy to edit and add your own lines code even for 
   programming beginners! Grab your repository clone and use your imagination!
   
-What are you waiting for? Challenge yourself in DCSS!
+What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup!
