@@ -1,4 +1,4 @@
-##### DCSS Challenge Generator
+# DCSS Challenge Generator
 
 ## Introduction
 Have you ever had a moment when you were looking on forum for new Casual League Challenge but nobody posts new one?
@@ -17,51 +17,69 @@ databases combines new Tavern's style challenges. Here are some advantages of th
   Or maybe you want to add new feature to program? Thanks to Python it's very easy to edit and add your own lines code even for 
   programming beginners! Grab your repository clone and use your imagination!
   
-What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup!
+What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup! :+1:
 
 
 
-##Requirements for program to work
+### Requirements for program to work
 
 This script requires 4 files that MUST name exactly:
-species_database.txt - contains all species to choose from
-background_database.txt - contains all backgrounds to choose from
-nocombo_database.txt - contains all impossible to start game combos
-challenge_database.txt - contains all basic challenges to choose from
+**species_database.txt** - contains all species to choose from
+**background_database.txt** - contains all backgrounds to choose from
+**nocombo_database.txt** - contains all impossible to start game combos
+**challenge_database.txt** - contains all basic challenges to choose from
 
 Program also requires Python (preferably 3.6.0 or higher) to work, Python doesn't compile script to executable file but 
 interprets it every time program is launched.
 
-##File format of input files
+### File format of input files
 
 This program uses external databases in straight way, so files MUST be in specific format to import them correctly.
 If you want to include more tiers per challenge, you need to edit TIERS_PER_CHALLENGE constant in program's code and then
 edit challenge file.
 Here are file templates:
 
-#species_database.txt (one species definition per line):
+##### species_database.txt:
+(one species definition per line)
+
 (species 2-char shortcut)(species fullname - may be longer than 2 words)
+
+Example:
+```
 S1 Species Name1
 S2 Species Name 2
 ...
 Gh Ghoul
+```
 
-#background_database.txt (one background definition per line):
+##### background_database.txt:
+(one background definition per line)
+
 (background 2-char shortcut)(background fullname - may be longer than 2 words)
+
+Example:
+```
 B1 Background Name1
 B2 Background Name 2
 ...
 VM Venom Mage
+```
 
-#nocombo_database.txt (one 4-char combo per line):
+##### nocombo_database.txt:
+(one 4-char combo per line)
+
 (species 2-char shortcut)(background 2-char shortcut)
+
+Example:
+```
 BnCm
 BnCm
 ...
 MuTm
+```
 
-#challenge_database.txt
-
+##### challenge_database.txt
+```
 Name: (Challenge name)
 Tier1: (Description of tier 1)
 Tier2: (Description of tier 2)
@@ -69,7 +87,9 @@ Tier3: (Description of tier 3)
 BanSpecies: (All species shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
 BanBackgrounds: (All background shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
 (Empty line!! - For less cluttered file so user has easier time to analyze challenges included here)
-...
+```
+Example:
+```
 Name: Challenge for beginners
 Tier1: Reach lair
 Tier2: Get rune
@@ -77,15 +97,22 @@ Tier3: Win game
 BanSpecies: VS Vp Dg Fo Na Op Fe Ba Mu Gn
 BanBackgrounds:
 
+Name: Challenge for hardcores
+Tier1: Reach last floor of Lair before reaching experience level 9
+Tier2: Acquire all 5 pandemonic runes as a first 5 runes
+Tier3: Win game with all 15 runes before reaching experience level 20
+BanSpecies:
+BanBackgrounds: Fi Gl Mo Hu As Ar Wn Be AK CK Sk Tm Wr AM En Wz Cj Ne FE IE AE EE VM
 ...
+```
 
-##Contribution
+#### Contribution
 
 If you want to add more exciting challenges, report misspell or even add new functionalities to source code,
 don't hesistate to contribute. The more patches, the better program will be. Just download copy of repository you can
 adjust it for your needs!
 
-###Future Goals
-- Convert console program to GUI program
-- Species with god combos instead of backgrounds
-- Challenges with gods to choose and ban
+### Future Goals
+[ ] Convert console program to GUI program
+[ ] Species with god combos instead of backgrounds
+[ ] Challenges with gods to choose and ban
