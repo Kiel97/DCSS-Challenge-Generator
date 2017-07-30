@@ -24,10 +24,10 @@ What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup! :+1:
 ## Requirements for program to work
 
 This script requires 4 files that MUST name exactly:
-**species_database.txt** - contains all species to choose from
-**background_database.txt** - contains all backgrounds to choose from
-**nocombo_database.txt** - contains all impossible to start game combos
-**challenge_database.txt** - contains all basic challenges to choose from
+- **species_database.txt** - contains all species to choose from
+- **background_database.txt** - contains all backgrounds to choose from
+- **nocombo_database.txt** - contains all impossible to start game combos
+- **challenge_database.txt** - contains all basic challenges to choose from
 
 Program also requires Python (preferably 3.6.0 or higher) to work, Python doesn't compile script to executable file but 
 interprets it every time program is launched.
