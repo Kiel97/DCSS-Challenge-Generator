@@ -11,7 +11,7 @@ databases combines new Tavern's style challenges. Here are some advantages of th
 - Too easy or too hard challenges? Or too few of them? Or maybe you are playing one of DCSS forks? Customise your databases
   with user-editing friendly .txt format! Create your own challenges!
 - Hate limit of generating up to 100 challenges or your species and background shortcuts are not 2-char length?
-  Or maybe you want to add new feature to program? That's to Python it's very easy to edit and add your own lines code even for 
+  Or maybe you want to add new feature to program? Thanks to Python it's very easy to edit and add your own lines code even for 
   programming beginners! Grab your repository clone and use your imagination!
   
 What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup!
