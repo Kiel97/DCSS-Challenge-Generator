@@ -5,8 +5,7 @@ Have you ever had a moment when you were looking on forum for new Casual League 
 Have you ever been bored with playing different combos and had no side objectives which would make game more exciting?
 Or are you looking for new combinations to play you never thought about?
 
-Then this brand new DCSS Challenge Generator is for you! Inspired by The Tavern's various challenges user were competing
-(mainly by triorph's Casual League Weeks) I have written Python script which from different species, background and challenge
+Then this brand new DCSS Challenge Generator is for you! Inspired by The Tavern's various challenges (mainly by triorph's Casual League Weeks) I have written Python script which from different species, background and challenge
 databases combines new Tavern's style challenges. Here are some advantages of this program:
 
 - Provide database files in script's directory, enter number of challenges to generate and output file name! Ready!
@@ -119,6 +118,7 @@ don't hesistate to contribute. The more patches, the better program will be. Jus
 adjust it your way!
 
 ### Future Goals
+- [ ] MOOOOOORE CHALLENGESSSS
 - [ ] Convert console program to GUI program
 - [ ] Species with god combos instead of backgrounds
 - [ ] Challenges with gods to choose and ban
