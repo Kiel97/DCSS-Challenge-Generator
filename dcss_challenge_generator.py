@@ -6,6 +6,7 @@ import sys
 
 SHORTCUT_LENGTH = 2
 MAX_COMBOS = 100
+TIERS_PER_CHALLENGE = 3
 
 def open_file(filename):
     """Opens file and check if file exists in generator's directory."""
@@ -94,7 +95,7 @@ def import_challenges(filename):
         challenge_name = challenge_name[6:].strip()
         
         challenge_tiers = []
-        for i in range(3):
+        for i in range(TIERS_PER_CHALLENGE):
             tier = file.readline()
 
             if tier[:6] != ("Tier%s:" % str(i+1)):
@@ -210,7 +211,7 @@ def export_challenges(file,generated_challenges):
         output = "[Challenge No.%d]\n\n" % iteration
         output += "%s (%s) - %s\n\n" % (challenge[1],challenge[0],challenge[2])
 
-        for tier in range(3):
+        for tier in range(TIERS_PER_CHALLENGE):
             output += "* Tier %d: %s\n" % (tier+1, challenge[3][tier])
 
         output += "\n"
