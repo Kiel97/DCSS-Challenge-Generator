@@ -84,5 +84,5 @@ adjust it for your needs!
 
 -----Future Goals-----
 - Convert console program to GUI program
-- Background with god combos
+- Species with god combos instead of backgrounds
 - Challenges with gods to choose and ban
