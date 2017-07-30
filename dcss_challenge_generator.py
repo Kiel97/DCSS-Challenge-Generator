@@ -1,4 +1,5 @@
 #This program is under GNU General Public License v3.0
+#Made by Krzysztof Kiełczewski, 2017
 
 from random import choice
 import sys
