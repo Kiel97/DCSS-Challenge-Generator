@@ -21,7 +21,7 @@ What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup!
 
 
 
------Requirements for program to work-----
+##Requirements for program to work
 
 This script requires 4 files that MUST name exactly:
 species_database.txt - contains all species to choose from
@@ -32,35 +32,35 @@ challenge_database.txt - contains all basic challenges to choose from
 Program also requires Python (preferably 3.6.0 or higher) to work, Python doesn't compile script to executable file but 
 interprets it every time program is launched.
 
------File format of input files-----
+##File format of input files
 
 This program uses external databases in straight way, so files MUST be in specific format to import them correctly.
 If you want to include more tiers per challenge, you need to edit TIERS_PER_CHALLENGE constant in program's code and then
 edit challenge file.
 Here are file templates:
 
-species_database.txt (one species definition per line):
+#species_database.txt (one species definition per line):
 (species 2-char shortcut)(species fullname - may be longer than 2 words)
 S1 Species Name1
 S2 Species Name 2
 ...
 Gh Ghoul
 
-background_database.txt (one background definition per line):
+#background_database.txt (one background definition per line):
 (background 2-char shortcut)(background fullname - may be longer than 2 words)
 B1 Background Name1
 B2 Background Name 2
 ...
 VM Venom Mage
 
-nocombo_database.txt (one 4-char combo per line):
+#nocombo_database.txt (one 4-char combo per line):
 (species 2-char shortcut)(background 2-char shortcut)
 BnCm
 BnCm
 ...
 MuTm
 
-challenge_database.txt
+#challenge_database.txt
 
 Name: (Challenge name)
 Tier1: (Description of tier 1)
@@ -79,13 +79,13 @@ BanBackgrounds:
 
 ...
 
------Contribution-----
+##Contribution
 
 If you want to add more exciting challenges, report misspell or even add new functionalities to source code,
 don't hesistate to contribute. The more patches, the better program will be. Just download copy of repository you can
 adjust it for your needs!
 
------Future Goals-----
+###Future Goals
 - Convert console program to GUI program
 - Species with god combos instead of backgrounds
 - Challenges with gods to choose and ban
