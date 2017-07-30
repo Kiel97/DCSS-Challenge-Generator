@@ -15,3 +15,62 @@ databases combines new Tavern's style challenges. Here are some advantages of th
   programming beginners! Grab your repository clone and use your imagination!
   
 What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup!
+
+
+
+-Requirements for program to work-
+
+This script requires 4 files that MUST name exactly:
+species_database.txt - contains all species to choose from
+background_database.txt - contains all backgrounds to choose from
+nocombo_database.txt - contains all impossible to start game combos
+challenge_database.txt - contains all basic challenges to choose from
+
+Program also requires Python (preferably 3.6.0 or higher) to work, Python doesn't compile script to executable file but 
+interprets it every time program is launched.
+
+-File format of input files-
+
+This program uses external databases in straight way, so files MUST be in specific format to import them correctly.
+If you want to include more tiers per challenge, you need to edit TIERS_PER_CHALLENGE constant in program's code and then
+edit challenge file.
+Here are file templates:
+
+species_database.txt:
+(Species_shortcut - 2-char)(Species_fullname - may be longer than 2 words)
+S1 Species Name1
+S2 Species Name 2
+...
+Gh Ghoul
+
+background_database.txt
+(Background_shortcut - 2-char)(Background_fullname - may be longer than 2 words)
+B1 Background Name1
+B2 Background Name 2
+...
+VM Venom Mage
+
+nocombo_database.txt
+(Species_shortcut - 2-char)(Background_shortcut - 2-char)
+BnCm
+BnCm
+...
+MuTm
+
+challenge_database.txt
+
+(Name: Challenge name)
+(Tier1: Description of tier 1)
+(Tier2: Description of tier 2)
+(Tier3: Description of tier 3)
+(BanSpecies: All species shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
+(BanBackgrounds: All background shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
+(Empty line!! - For less cluttered file so user has easier time to analyze challenges included here)
+Name: My first challenge
+Tier1: Write all requirements you wish player has to do
+Tier2: If you wish, add species and backgrounds to be banned from your challenge
+Tier3: Leave empty line after BanBackgrounds!
+BanSpecies:
+BanBackgrounds:
+
+...
