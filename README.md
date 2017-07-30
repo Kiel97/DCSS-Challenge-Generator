@@ -75,3 +75,14 @@ BanSpecies: VS Vp Dg Fo Na Op Fe Ba Mu Gn
 BanBackgrounds:
 
 ...
+
+-----Contribution-----
+
+If you want to add more exciting challenges, report misspell or even add new functionalities to source code,
+don't hesistate to contribute. The more patches, the better program will be. Just download copy of repository you can
+adjust it for your needs!
+
+-----Future Goals-----
+- Convert console program to GUI program
+- Background with god combos
+- Challenges with gods to choose and ban
