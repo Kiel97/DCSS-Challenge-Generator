@@ -21,7 +21,7 @@ def open_file(filename):
 
 def end_program(exit_code = 0):
     """Here program ends both successfully or abnormally."""
-    input("Press any key to exit.")
+    input("Press Enter to exit.")
     sys.exit(exit_code)
 
 def import_to_dictionary(filename):
