@@ -47,7 +47,7 @@ Tier3: Win game with Stealth skill level 27 and Stealth title
 BanSpecies: Tr Ce
 BanBackgrounds:
 
-Name: Too lazy to train
+Name: Untrained
 Tier1: Reach Lair with all skills below level 10
 Tier2: Acquire first rune with all skills below level 15
 Tier3: Win game with all skills below level 20
