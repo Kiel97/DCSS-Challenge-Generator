@@ -66,7 +66,7 @@ Tier1: Reach Lair with Transmutation skill level 10 and Transmutation title
 Tier2: Acquire first rune with Transmutation skill level 20 and Transmutation title
 Tier3: Win game with Transmutation skill level 27 and Transmutation title
 BanSpecies: Mu Gh Ha HO Tr
-BanBackgrounds:
+BanBackgrounds: Fi Gl Mo Hu As Ar Wn Be AK CK Sk Wr AM En Wz Cj Su Ne FE IE AE VM
 
 Name: Lorekeeper
 Tier1: Reach the last level of the Lair without raising any skill to 13
