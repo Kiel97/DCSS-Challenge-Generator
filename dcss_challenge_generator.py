@@ -152,6 +152,26 @@ def ask_number_of_challenges():
         
     return amount
 
+def ask_name_of_export_file():
+    """Program asks for name of exported file."""
+
+    while True:
+        try:
+            filename = input("Enter name of txt file for exported challenges: ")
+            if (filename == "background_database"
+                or filename == "challenge_database"
+                or filename == "nocombo_database"
+                or filename == "species_database"):
+                raise ValueError
+            else:
+                break
+        except ValueError:
+            print("You can't override database files! Try another name!")
+
+    filename += ".txt"
+
+    return filename
+
 def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     """Here program composes challenge with all required databases."""
     
@@ -227,7 +247,7 @@ def main():
                                            no_combo_database, challenges_database)
             output_challenges.append(generated)
 
-        output_file = open("output.txt","w")
+        output_file = open(ask_name_of_export_file(),"w")
         
         export_challenges(output_file,output_challenges)
         output_file.close()
