@@ -115,8 +115,8 @@ BanBackgrounds: Fi Gl Mo Hu As Ar Wn Be AK CK Sk Tm Wr AM En Wz Cj Ne FE IE AE E
 ### Contribution
 
 If you want to add more exciting challenges, report misspell or even add new functionalities to source code,
-don't hesistate to contribute. The more patches, the better program will be. Just download copy of repository you can
-adjust it for your needs!
+don't hesistate to contribute. The more patches, the better program will be. Just download copy of repository and
+adjust it your way!
 
 ### Future Goals
 - [ ] Convert console program to GUI program
