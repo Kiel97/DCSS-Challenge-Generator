@@ -40,9 +40,10 @@ edit challenge file.
 Here are file templates:
 
 ### species_database.txt:
-(one species definition per line)
-
+Structure:
+```
 (species 2-char shortcut)(species fullname - may be longer than 2 words)
+```
 
 Example:
 ```
@@ -53,9 +54,10 @@ Gh Ghoul
 ```
 
 ### background_database.txt:
-(one background definition per line)
-
+Structure:
+```
 (background 2-char shortcut)(background fullname - may be longer than 2 words)
+```
 
 Example:
 ```
@@ -66,9 +68,11 @@ VM Venom Mage
 ```
 
 ### nocombo_database.txt:
-(one 4-char combo per line)
 
+Structure:
+```
 (species 2-char shortcut)(background 2-char shortcut)
+```
 
 Example:
 ```
@@ -79,14 +83,16 @@ MuTm
 ```
 
 ### challenge_database.txt
+
+Structure of:
 ```
 Name: (Challenge name)
 Tier1: (Description of tier 1)
 Tier2: (Description of tier 2)
 Tier3: (Description of tier 3)
-BanSpecies: (All species shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
-BanBackgrounds: (All background shortcuts you wish to ban from choosing in this challenge, leave empty if all permitted)
-(Empty line!! - For less cluttered file so user has easier time to analyze challenges included here)
+BanSpecies: (All species shortcuts to ban from choosing in this challenge, leave empty if all permitted)
+BanBackgrounds: (All background shortcuts to ban from choosing in this challenge, leave empty if all permitted)
+(Empty line!! - For less cluttered file so user has easier time to analyze challenges included in file)
 ```
 Example:
 ```
