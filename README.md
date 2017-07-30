@@ -1,3 +1,6 @@
+##### DCSS Challenge Generator
+
+## Introduction
 Have you ever had a moment when you were looking on forum for new Casual League Challenge but nobody posts new one?
 Have you ever been bored with playing different combos and had no side objectives which would make game more exciting?
 Or are you looking for new combinations to play you never thought about?
