@@ -8,7 +8,7 @@ Or are you looking for new combinations to play you never thought about?
 Then this brand new DCSS Challenge Generator is for you! Inspired by The Tavern's various challenges (mainly by triorph's Casual League Weeks) I have written Python script which from different species, background and challenge
 databases combines new Tavern's style challenges. Here are some advantages of this program:
 
-- Provide database files in script's directory, enter number of challenges to generate and output file name! Ready!
+- Download script and databases, run program, enter number of challenges to generate and output filename! It's ready to share!
 - Generate your challenges ready to share with others. No need to spend time on cleaning up output file.
 - Too easy or too hard challenges? Or too few of them? Or maybe you are playing one of DCSS forks? Customise your databases
   with user-editing friendly .txt format! Create your own challenges!
@@ -19,6 +19,10 @@ databases combines new Tavern's style challenges. Here are some advantages of th
 What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup! :+1:
 
 
+
+## Downloading and launching program
+It's very simple to download and useprogram. Head to DCSS-Challenge-Generator repository on GitHub, click on Releases link just
+above blue line. Next download the newest release source code. Unzip it, and then launch dcss_challenge_generator.py script.
 
 ## Requirements for program to work
 
@@ -118,7 +122,7 @@ don't hesistate to contribute. The more patches, the better program will be. Jus
 adjust it your way!
 
 ### Future Goals
-- [ ] MOOOOOORE CHALLENGESSSS
+- [ ] MOOOOOORE CHALLENGES
 - [ ] Convert console program to GUI program
 - [ ] Species with god combos instead of backgrounds
 - [ ] Challenges with gods to choose and ban
