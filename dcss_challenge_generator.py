@@ -177,20 +177,22 @@ def generate_challenge(species_db,backgrounds_db,no_combo_db,challenges_db):
     
     chosen_challenge = choice(list(challenges_db.keys()))
     
-    #if challenges_db[chosen_challenge][2] != [""]:
-        #for banned_background in challenges_db[chosen_challenge][2]:
-            #backgrounds_db.pop[banned_background]
+    if challenges_db[chosen_challenge][2] != [""]:
+        for banned_background in challenges_db[chosen_challenge][2]:
+            if banned_background in backgrounds_db:
+                backgrounds_db.pop(banned_background)
 
     chosen_background = choice(list(backgrounds_db))
 
-    #if challenges_db[chosen_challenge][1] != [""]:
-        #for banned_species in challenges_db[chosen_challenge][1]:
-            #species_db.pop[banned_species]
+    if challenges_db[chosen_challenge][1] != [""]:
+        for banned_species in challenges_db[chosen_challenge][1]:
+            if banned_species in species_db:
+                species_db.pop(banned_species)
 
     chosen_species = choice(list(species_db))
-    #while chosen_species+chosen_background in no_combo_db:
-        #species_db.pop[chosen_species]
-        #chosen_species = choice(list(species_db))
+    while chosen_species+chosen_background in no_combo_db:
+        species_db.pop(chosen_species)
+        chosen_species = choice(list(species_db))
 
     chosen_combo = species_db[chosen_species] + " " + backgrounds_db[chosen_background]
 
