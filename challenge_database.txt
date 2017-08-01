@@ -88,3 +88,10 @@ Tier2: Find a rune without worshipping a god
 Tier3: Win a game without worshipping a god
 BanSpecies: Dg
 BanBackgrounds: Be AK CK
+
+Name: There was a lair?!
+Tier1: Reach last floor of Orc branch without ever entering Lair
+Tier2: Acquire rune without ever entering Lair
+Tier3: Win game without ever entering Lair
+BanSpecies:
+BanBackgrounds:
