@@ -23,7 +23,7 @@ Name: The Invulnerable
 Tier1: Reach Lair with Armour skill level 10 and Armour title
 Tier2: Acquire first rune with Armour skill level 20 and Armour title
 Tier3: Win game with Armour skill level 27 and Armour title
-BanSpecies: Ce Mf Sp
+BanSpecies: Ce Mf Sp Dr Fe Op
 BanBackgrounds:
 
 Name: The Intangible
