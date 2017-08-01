@@ -207,3 +207,10 @@ Tier2: Acquire rune without killing any uniques and ghosts
 Tier3: Win game without killing any uniques and ghosts
 BanSpecies:
 BanBackgrounds:
+
+Name: Thick skinned
+Tier1: Reach last floor of Orc without having equipped any kind of protection
+Tier2: Acquire rune without having equipped any kind of protection
+Tier3: Win game without having equipped any kind of protection
+BanSpecies:
+BanBackgrounds:
