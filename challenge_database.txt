@@ -200,3 +200,10 @@ Tier2: Acquire rune without ever collecting gold
 Tier3: Win game without ever collecting gold
 BanSpecies:
 BanBackgrounds:
+
+Name: No uniques were harmed during this run
+Tier1: Reach Lair without killing any uniques and ghosts
+Tier2: Acquire rune without killing any uniques and ghosts
+Tier3: Win game without killing any uniques and ghosts
+BanSpecies:
+BanBackgrounds:
