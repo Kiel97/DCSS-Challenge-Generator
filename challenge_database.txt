@@ -179,3 +179,10 @@ Tier2: Acquire rune without using any form of teleportation, blink and passwall
 Tier3: Win game without using any form of teleportation, blink and passwall
 BanSpecies: Ba Fo
 BanBackgrounds: AK Wr
+
+Name: Close Quarter Combat Fanatic
+Tier1: Reach Lair without using any kind of ranged items, attacks and abilities
+Tier2: Acquire rune without using any kind of ranged items, attacks and abilities
+Tier3: Win game without using any kind of ranged items, attacks and abilities
+BanSpecies:
+BanBackgrounds:
