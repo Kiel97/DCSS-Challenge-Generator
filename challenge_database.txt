@@ -141,7 +141,7 @@ BanBackgrounds:
 Name: Ascetic
 Tier1: Enter the Temple without reading scrolls and drinking potions
 Tier2: Reach last floor of Lair without reading scrolls and drinking potions
-Tier3: Acquire rune without reading scrolls and drinking potions
+Tier3: Acquire non-abysmal and non-slimy rune without reading scrolls and drinking potions
 BanSpecies:
 BanBackgrounds:
 
