@@ -145,3 +145,16 @@ Tier3: Acquire non-abysmal and non-slimy rune without reading scrolls and drinki
 BanSpecies:
 BanBackgrounds:
 
+Name: Graceful
+Tier1: Enter the Temple in under 3000 turns
+Tier2: Enter the third floor of Elven Halls in under 9000 turns
+Tier3: Enter the last floor of Gehenna in under 27000 turns
+BanSpecies:
+BanBackgrounds:
+
+Name: Descent into madness
+Tier1: Enter the Abyss
+Tier2: Reach 10th floor of a Ziggurat
+Tier3: Escape Ziggurat from 27-th floor
+BanSpecies:
+BanBackgrounds: AK
