@@ -123,3 +123,17 @@ Tier2: Acquire rune in 81 minutes
 Tier3: Win game in under 3 hours
 BanSpecies:
 BanBackgrounds:
+
+Name: Prophet
+Tier1: Enter Lair with Invocation skill above level 10 as your the highest skill
+Tier2: Acquire rune with Invocation skill above level 20 as your the highest skill
+Tier3: Win game with Invocation skill at level 27 and with Invocation title
+BanSpecies: Dg
+BanBackgrounds:
+
+Name: The Apostate
+Tier1: Reach last level of Lair with "Agnostic" title
+Tier2: Acquire 2 runes with "Heretic" title
+Tier3: Win game with "Apostate" title
+BanSpecies: Dg
+BanBackgrounds:
