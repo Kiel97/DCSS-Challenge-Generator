@@ -95,3 +95,10 @@ Tier2: Acquire rune without ever entering Lair
 Tier3: Win game without ever entering Lair
 BanSpecies:
 BanBackgrounds:
+
+Name: Nature's Ally
+Tier1: Enter the Crypt
+Tier2: Acquire golden rune
+Tier3: Acquire golden rune with Orb of Zot while entering the Tomb for first time
+BanSpecies:
+BanBackgrounds:
