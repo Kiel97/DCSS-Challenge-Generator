@@ -193,3 +193,10 @@ Tier2: Acquire rune without casting any spells
 Tier3: Win game without casting any spells
 BanSpecies:
 BanBackgrounds: Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
+
+Name: Moneyless
+Tier1: Reach last floor of Lair without ever collecting gold
+Tier2: Acquire rune without ever collecting gold
+Tier3: Win game without ever collecting gold
+BanSpecies:
+BanBackgrounds:
