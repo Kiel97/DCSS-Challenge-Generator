@@ -158,3 +158,10 @@ Tier2: Reach 10th floor of a Ziggurat
 Tier3: Escape Ziggurat from 27-th floor
 BanSpecies:
 BanBackgrounds: AK
+
+Name: Angel of justice
+Tier1: Enter Pandemonium or any of 4 Hell branches
+Tier2: Kill one unique Pandemonium lord and one unique Hell lord
+Tier3: Kill all four unique Pandemonium lords and all four unique Hell lords
+BanSpecies:
+BanBackgrounds:
