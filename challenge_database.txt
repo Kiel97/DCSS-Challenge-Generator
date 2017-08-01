@@ -38,7 +38,7 @@ Tier1: Reach Lair with Spellcasting skill level 10 and Spellcasting title
 Tier2: Acquire first rune with Spellcasting skill level 20 and Spellcasting title
 Tier3: Win game with Spellcasting skill level 27 and Spellcasting title
 BanSpecies: Tr Ce Ha Mi HO
-BanBackgrounds: Be
+BanBackgrounds:
 
 Name: The Ninja
 Tier1: Reach Lair with Stealth skill level 10 and Stealth title
