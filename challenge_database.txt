@@ -109,3 +109,10 @@ Tier2: Acquire rune while worshipping god from faded altar as your only worshipp
 Tier3: Win game while worshipping god from faded altar as your only worshipped god
 BanSpecies: Dg
 BanBackgrounds: Be AK CK
+
+Name: The Prodigal Son
+Tier1: Become champion of Ru
+Tier2: Become champion of other god after betraying Ru as his champion
+Tier3: Become again champion of Ru after betraying other god as a champion
+BanSpecies: Dg
+BanBackgrounds: Be AK CK
