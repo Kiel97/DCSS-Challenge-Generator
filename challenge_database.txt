@@ -16,7 +16,7 @@ Name: The Balista
 Tier1: Reach Lair with Throwing skill level 10 and Throwing title
 Tier2: Acquire first rune with Throwing skill level 20 and Throwing title
 Tier3: Win game with Throwing skill level 27 and Throwing title
-BanSpecies:
+BanSpecies: Fe
 BanBackgrounds:
 
 Name: The Invulnerable
