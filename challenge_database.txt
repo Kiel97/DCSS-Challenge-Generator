@@ -133,7 +133,15 @@ BanBackgrounds:
 
 Name: The Apostate
 Tier1: Reach last level of Lair with "Agnostic" title
-Tier2: Acquire 2 runes with "Heretic" title
+Tier2: Acquire second rune with "Heretic" title
 Tier3: Win game with "Apostate" title
 BanSpecies: Dg
 BanBackgrounds:
+
+Name: Ascetic
+Tier1: Enter the Temple without reading scrolls and drinking potions
+Tier2: Reach last floor of Lair without reading scrolls and drinking potions
+Tier3: Acquire rune without reading scrolls and drinking potions
+BanSpecies:
+BanBackgrounds:
+
