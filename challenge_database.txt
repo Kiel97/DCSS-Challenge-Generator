@@ -214,3 +214,10 @@ Tier2: Acquire rune without having equipped any kind of protection
 Tier3: Win game without having equipped any kind of protection
 BanSpecies:
 BanBackgrounds:
+
+Name: Immortality Lust
+Tier1: Memorise "Necromutation" spell
+Tier2: Get "Necromutation" spell failure drop to 20% or below
+Tier3: Win game while in lichform
+BanSpecies: Mi Ha HO Tr
+BanBackgrounds:
