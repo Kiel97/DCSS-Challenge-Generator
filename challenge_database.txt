@@ -188,8 +188,8 @@ BanSpecies:
 BanBackgrounds: Hu AM Ar
 
 Name: Spells Hater
-Tier1: Reach Lair without using any spells
-Tier2: Acquire rune without using any spells
-Tier3: Win game without using any spells
+Tier1: Reach Lair without casting any spells
+Tier2: Acquire rune without casting any spells
+Tier3: Win game without casting any spells
 BanSpecies:
 BanBackgrounds: Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
