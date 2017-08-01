@@ -185,4 +185,11 @@ Tier1: Reach Lair without using any kind of ranged items, attacks and abilities
 Tier2: Acquire rune without using any kind of ranged items, attacks and abilities
 Tier3: Win game without using any kind of ranged items, attacks and abilities
 BanSpecies:
-BanBackgrounds:
+BanBackgrounds: Hu AM Ar
+
+Name: Spells Hater
+Tier1: Reach Lair without using any spells
+Tier2: Acquire rune without using any spells
+Tier3: Win game without using any spells
+BanSpecies:
+BanBackgrounds: Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
