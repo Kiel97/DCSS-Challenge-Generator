@@ -21,8 +21,7 @@ What are you waiting for? Challenge yourself in Dungeon Crawl Stone Soup! :+1:
 
 
 ## Downloading and launching program
-It's very simple to download and useprogram. Head to DCSS-Challenge-Generator repository on GitHub, click on Releases link just
-above blue line. Next download the newest release source code. Unzip it, and then launch dcss_challenge_generator.py script.
+It's very simple to download and use this program. Head to DCSS-Challenge-Generator repository on GitHub, click on Releases link just above blue line. Next download the newest release package. Unzip it, and then launch dcss_challenge_generator.py script.
 
 ## Requirements for program to work
 
@@ -110,7 +109,7 @@ Name: Challenge for hardcores
 Tier1: Reach last floor of Lair before reaching experience level 9
 Tier2: Acquire all 5 pandemonic runes as a first 5 runes
 Tier3: Win game with all 15 runes before reaching experience level 20
-BanSpecies:
+BanSpecies: Fo Sp
 BanBackgrounds: Fi Gl Mo Hu As Ar Wn Be AK CK Sk Tm Wr AM En Wz Cj Ne FE IE AE EE VM
 ...
 ```
@@ -123,6 +122,6 @@ adjust it your way!
 
 ### Future Goals
 - [ ] MOOOOOORE CHALLENGES
-- [ ] Convert console program to GUI program
-- [ ] Species with god combos instead of backgrounds
-- [ ] Challenges with gods to choose and ban
+- [ ] Possibility to add comments in .txt databases
+- [ ] Convert console program to GUI
+- [ ] Challenges with gods
