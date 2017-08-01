@@ -165,3 +165,17 @@ Tier2: Kill one unique Pandemonium lord and one unique Hell lord
 Tier3: Kill all four unique Pandemonium lords and all four unique Hell lords
 BanSpecies:
 BanBackgrounds:
+
+Name: Nobody show me how to use them
+Tier1: Reach Lair without using Evocables
+Tier2: Acquire rune without using Evocables
+Tier3: Win game without using Evocables
+BanSpecies:
+BanBackgrounds:
+
+Name: The Statis
+Tier1: Reach Lair without using any form of teleportation, blink and passwall
+Tier2: Acquire rune without using any form of teleportation, blink and passwall
+Tier3: Win game without using any form of teleportation, blink and passwall
+BanSpecies: Ba Fo
+BanBackgrounds: AK Wr
