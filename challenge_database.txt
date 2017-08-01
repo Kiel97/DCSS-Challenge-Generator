@@ -102,3 +102,10 @@ Tier2: Acquire golden rune
 Tier3: Acquire golden rune with Orb of Zot while entering the Tomb for first time
 BanSpecies:
 BanBackgrounds:
+
+Name: Inheritor
+Tier1: Enter Lair while worshipping god from faded altar as your only worshipped god
+Tier2: Acquire rune while worshipping god from faded altar as your only worshipped god
+Tier3: Win game while worshipping god from faded altar as your only worshipped god
+BanSpecies: Dg
+BanBackgrounds: Be AK CK
