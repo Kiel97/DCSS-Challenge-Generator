@@ -235,3 +235,10 @@ Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill 
 Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title using maces only
 BanSpecies: Sp DE Fe
 BanBackgrounds:
+
+Name: Skull chrusher
+Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill
+Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill
+Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title
+BanSpecies: Sp DE Fe
+BanBackgrounds:
