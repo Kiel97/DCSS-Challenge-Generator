@@ -221,3 +221,10 @@ Tier2: Get "Necromutation" spell failure drop to 20% or below
 Tier3: Win game while in lichform
 BanSpecies: Mi Ha HO Tr
 BanBackgrounds:
+
+Name: Flairs, not maces
+Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill using flairs and whips only
+Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill using flairs and whips only
+Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title using flairs and whips only
+BanSpecies: Sp DE
+BanBackgrounds:
