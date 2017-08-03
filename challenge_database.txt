@@ -225,20 +225,20 @@ BanBackgrounds:
 Name: Flairs, not maces
 Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill using flairs and whips only
 Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill using flairs and whips only
-Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title using flairs and whips only
+Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title using flairs and whips only
 BanSpecies: Sp DE Fe
 BanBackgrounds:
 
 Name: Maces, not flairs
 Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill using maces only
 Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill using maces only
-Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title using maces only
+Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title using maces only
 BanSpecies: Sp DE Fe
 BanBackgrounds:
 
 Name: Skull chrusher
 Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill
 Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill
-Tier3: Win game with Maces&Flairs skill level 27 and with Maces&Flairs title
+Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title
 BanSpecies: Sp DE Fe
 BanBackgrounds:
