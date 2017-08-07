@@ -312,3 +312,10 @@ Tier2: Acquire rune with Conjurations skill level above 20 as the highest skill
 Tier3: Win game with Conjurations skill level 27 and Conjurations title
 BanSpecies: Mi Sp Tr Vp
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM Su Ne
+
+Name: The Spellbinder
+Tier1: Enter Lair with Hexes skill level above 10 as the highest skill
+Tier2: Acquire rune with Hexes skill level above 20 as the highest skill
+Tier3: Win game with Hexes skill level 27 and Hexes title
+BanSpecies: Mi Te Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Tm Wr Ne IE AE EE VM
