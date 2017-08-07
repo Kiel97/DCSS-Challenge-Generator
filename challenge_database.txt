@@ -361,3 +361,10 @@ Tier2: Acquire rune with Ice Magic skill level above 20 as the highest skill
 Tier3: Win game with Ice Magic skill level 27 and Ice Magic title
 BanSpecies: Mi Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM Wz Cj Su Ne FE AE EE VM
+
+Name: The Meteorologist
+Tier1: Enter Lair with Air Magic skill level above 10 as the highest skill
+Tier2: Acquire rune with Air Magic skill level above 20 as the highest skill
+Tier3: Win game with Air Magic skill level 27 and Air Magic title
+BanSpecies: DD Mi Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Cj Su Ne FE IE EE
