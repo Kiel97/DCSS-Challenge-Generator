@@ -236,7 +236,7 @@ Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title using ma
 BanSpecies: Sp DE Fe
 BanBackgrounds:
 
-Name: The Skullchrusher
+Name: The Skullcrusher
 Tier1: Enter Lair with Maces&Flairs skill level above 10 as the highest skill
 Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill
 Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title
