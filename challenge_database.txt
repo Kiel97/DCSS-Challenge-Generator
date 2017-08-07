@@ -255,7 +255,7 @@ Tier1: Enter Lair with Long Blades skill level above 10 as the highest skill
 Tier2: Acquire rune with Long Blades skill level above 20 as the highest skill
 Tier3: Win game with Long Blades skll level 27 and Long Blades title
 BanSpecies: Og
-BanBackgrounds: Tm AM En Wz Cj Ne FE IE AE EE VM
+BanBackgrounds: Tm AM En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Axe Maniac
 Tier1: Enter Lair with Axes skill level above 10 as the highest skill
