@@ -354,3 +354,10 @@ Tier2: Acquire rune with Fire Magic skill level above 20 as the highest skill
 Tier3: Win game with Fire Magic skill level 27 and Fire Magic title
 BanSpecies: Mf Mi Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr En Cj Su Ne IE AE EE VM
+
+Name: The Englaciator
+Tier1: Enter Lair with Ice Magic skill level above 10 as the highest skill
+Tier2: Acquire rune with Ice Magic skill level above 20 as the highest skill
+Tier3: Win game with Ice Magic skill level 27 and Ice Magic title
+BanSpecies: Mi Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM Wz Cj Su Ne FE AE EE VM
