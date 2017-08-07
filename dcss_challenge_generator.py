@@ -162,12 +162,13 @@ def ask_name_of_export_file():
             if (filename == "background_database"
                 or filename == "challenge_database"
                 or filename == "nocombo_database"
-                or filename == "species_database"):
+                or filename == "species_database"
+                or filename == ""):
                 raise ValueError
             else:
                 break
         except ValueError:
-            print("You can't override database files! Try another name!")
+            print("You can't use that file name! Try another one!")
 
     filename += ".txt"
 
