@@ -299,7 +299,7 @@ Tier3: Win game with Crossbows skll level 27 and Crossbows title
 BanSpecies: Fe Og Tr
 BanBackgrounds: Fi Gl Mo As Ar Be AK CK Sk Tm Wr En Wz Cj Su Ne FE IE AE EE VM
 
-Name: The Ballista
+Name: The Catapult
 Tier1: Enter Lair with Slings skill level above 10 as the highest skill
 Tier2: Acquire rune with Slings skill level above 20 as the highest skill
 Tier3: Win game with Slings skll level 27 and Slings title
