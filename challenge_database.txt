@@ -333,3 +333,10 @@ Tier2: Acquire rune with Summonings skill level above 20 as the highest skill
 Tier3: Win game with Summonings skill level 27 and Summonings title
 BanSpecies: Mi Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Cj Ne FE IE AE EE VM
+
+Name: The Master of Death
+Tier1: Enter Lair with Necromancy skill level above 10 as the highest skill
+Tier2: Acquire rune with Necromancy skill level above 20 as the highest skill
+Tier3: Win game with Necromancy skill level 27 and Necromancy title
+BanSpecies: Mi
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Wz Cj Su FE IE AE EE VM
