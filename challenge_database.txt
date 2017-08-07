@@ -270,3 +270,10 @@ Tier2: Acquire rune with Polearms skill level above 20 as the highest skill
 Tier3: Win game with Polearms skll level 27 and Polearms title
 BanSpecies: DE Sp
 BanBackgrounds: Hu As Ar Tm AM En Wz Cj Su Ne FE IE AE EE VM
+
+Name: The Chief of Staff
+Tier1: Enter Lair with Staves skill level above 10 as the highest skill
+Tier2: Acquire rune with Staves skill level above 20 as the highest skill
+Tier3: Win game with Staves skll level 27 and Staves title
+BanSpecies: Sp
+BanBackgrounds: Fi Mo Hu As Ar Be AK CK Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
