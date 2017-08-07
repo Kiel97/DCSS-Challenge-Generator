@@ -368,3 +368,17 @@ Tier2: Acquire rune with Air Magic skill level above 20 as the highest skill
 Tier3: Win game with Air Magic skill level 27 and Air Magic title
 BanSpecies: DD Mi Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Cj Su Ne FE IE EE
+
+Name: The Petrodigitator
+Tier1: Enter Lair with Earth Magic skill level above 10 as the highest skill
+Tier2: Acquire rune with Earth Magic skill level above 20 as the highest skill
+Tier3: Win game with Earth Magic skill level 27 and Earth Magic title
+BanSpecies: Te
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Wz Cj Su Ne FE IE AE VM
+
+Name: The Envenomancer
+Tier1: Enter Lair with Poison Magic skill level above 10 as the highest skill
+Tier2: Acquire rune with Poison Magic skill level above 20 as the highest skill
+Tier3: Win game with Poison Magic skill level 27 and Poison Magic title
+BanSpecies: Mi Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Wr AM En Cj Su Ne FE IE AE EE
