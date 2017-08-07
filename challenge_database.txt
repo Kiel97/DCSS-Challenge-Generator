@@ -347,3 +347,10 @@ Tier2: Acquire first rune with Transmutation skill above level 20 as your the hi
 Tier3: Win game with Transmutation skill level 27 and Transmutation title
 BanSpecies: Mu Gh Ha HO Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Wr AM En Wz Cj Su Ne FE IE AE VM
+
+Name: The Infernalist
+Tier1: Enter Lair with Fire Magic skill level above 10 as the highest skill
+Tier2: Acquire rune with Fire Magic skill level above 20 as the highest skill
+Tier3: Win game with Fire Magic skill level 27 and Fire Magic title
+BanSpecies: Mf Mi Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr En Cj Su Ne IE AE EE VM
