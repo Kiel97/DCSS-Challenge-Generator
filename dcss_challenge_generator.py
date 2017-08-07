@@ -163,7 +163,7 @@ def ask_name_of_export_file():
                 or filename == "challenge_database"
                 or filename == "nocombo_database"
                 or filename == "species_database"
-                or filename == ""):
+                or filename.lstrip() == ""):
                 raise ValueError
             else:
                 break
