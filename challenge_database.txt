@@ -326,3 +326,10 @@ Tier2: Acquire rune with Charms skill level above 20 as the highest skill
 Tier3: Win game with Charms skill level 27 and Charms title
 BanSpecies: Mi Tr
 BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Tm AM En Wz Cj Su FE EE VM
+
+Name: The Master of the Summonings
+Tier1: Enter Lair with Summonings skill level above 10 as the highest skill
+Tier2: Acquire rune with Summonings skill level above 20 as the highest skill
+Tier3: Win game with Summonings skill level 27 and Summonings title
+BanSpecies: Mi Tr
+BanBackgrounds: Fi Gl Mo Hu As Ar Be AK CK Sk Tm Wr AM En Cj Ne FE IE AE EE VM
