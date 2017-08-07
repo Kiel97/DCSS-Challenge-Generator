@@ -33,6 +33,13 @@ Tier3: Win game with Dodging skill level 27 and Dodging title
 BanSpecies: Ce
 BanBackgrounds:
 
+Name: The Barricade
+Tier1: Reach Lair with Shields skill above level 10 as your the highest skill
+Tier2: Acquire first rune with Shields skill above level 20 as your the highest skill
+Tier3: Win game with Shields skill level 27 and Shields title
+BanSpecies: Fe Ce Sp
+BanBackgrounds:
+
 Name: The Archmage
 Tier1: Reach Lair with Spellcasting skill above level 10 as your the highest skill
 Tier2: Acquire first rune with Spellcasting skill above level 20 as your the highest skill
