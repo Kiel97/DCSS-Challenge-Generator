@@ -253,56 +253,56 @@ BanBackgrounds:
 Name: The Politician
 Tier1: Enter Lair with Short Blades skill level above 10 as the highest skill
 Tier2: Acquire rune with Short Blades skill level above 20 as the highest skill
-Tier3: Win game with Short Blades skll level 27 and Short Blades title
+Tier3: Win game with Short Blades skill level 27 and Short Blades title
 BanSpecies: Fe Og
 BanBackgrounds:
 
 Name: The Swordmaster
 Tier1: Enter Lair with Long Blades skill level above 10 as the highest skill
 Tier2: Acquire rune with Long Blades skill level above 20 as the highest skill
-Tier3: Win game with Long Blades skll level 27 and Long Blades title
+Tier3: Win game with Long Blades skill level 27 and Long Blades title
 BanSpecies: Fe Og
 BanBackgrounds: Tm AM En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Axe Maniac
 Tier1: Enter Lair with Axes skill level above 10 as the highest skill
 Tier2: Acquire rune with Axes skill level above 20 as the highest skill
-Tier3: Win game with Axes skll level 27 and Axes title
+Tier3: Win game with Axes skill level 27 and Axes title
 BanSpecies: Fe Og
 BanBackgrounds: Hu As Ar Tm AM En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Porcupine
 Tier1: Enter Lair with Polearms skill level above 10 as the highest skill
 Tier2: Acquire rune with Polearms skill level above 20 as the highest skill
-Tier3: Win game with Polearms skll level 27 and Polearms title
+Tier3: Win game with Polearms skill level 27 and Polearms title
 BanSpecies: Fe DE Sp
 BanBackgrounds: Hu As Ar Tm AM En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Chief of Staff
 Tier1: Enter Lair with Staves skill level above 10 as the highest skill
 Tier2: Acquire rune with Staves skill level above 20 as the highest skill
-Tier3: Win game with Staves skll level 27 and Staves title
+Tier3: Win game with Staves skill level 27 and Staves title
 BanSpecies: Fe Sp
 BanBackgrounds: Fi Mo Hu As Ar Be AK CK Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Merry
 Tier1: Enter Lair with Bows skill level above 10 as the highest skill
 Tier2: Acquire rune with Bows skill level above 20 as the highest skill
-Tier3: Win game with Bows skll level 27 and Bows title
+Tier3: Win game with Bows skill level 27 and Bows title
 BanSpecies: DD Fe Og Tr
 BanBackgrounds: Fi Gl Mo As Ar Be AK CK Sk Tm Wr En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Arbalest
 Tier1: Enter Lair with Crossbows skill level above 10 as the highest skill
 Tier2: Acquire rune with Crossbows skill level above 20 as the highest skill
-Tier3: Win game with Crossbows skll level 27 and Crossbows title
+Tier3: Win game with Crossbows skill level 27 and Crossbows title
 BanSpecies: Fe Og Tr
 BanBackgrounds: Fi Gl Mo As Ar Be AK CK Sk Tm Wr En Wz Cj Su Ne FE IE AE EE VM
 
 Name: The Catapult
 Tier1: Enter Lair with Slings skill level above 10 as the highest skill
 Tier2: Acquire rune with Slings skill level above 20 as the highest skill
-Tier3: Win game with Slings skll level 27 and Slings title
+Tier3: Win game with Slings skill level 27 and Slings title
 BanSpecies: Fe Og Tr
 BanBackgrounds:
 
