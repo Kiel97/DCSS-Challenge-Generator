@@ -242,3 +242,10 @@ Tier2: Acquire rune with Maces&Flairs skill level above 20 as the highest skill
 Tier3: Win game with Maces&Flairs skill level 27 and Maces&Flairs title
 BanSpecies: Sp DE Fe
 BanBackgrounds:
+
+Name: The Politician
+Tier1: Enter Lair with Short Blades skill level above 10 as the highest skill
+Tier2: Acquire rune with Short Blades skill level above 20 as the highest skill
+Tier3: Win game with Short Blades skll level 27 and Short Blades title
+BanSpecies: Og
+BanBackgrounds:
