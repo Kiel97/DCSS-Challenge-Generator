@@ -277,3 +277,10 @@ Tier2: Acquire rune with Staves skill level above 20 as the highest skill
 Tier3: Win game with Staves skll level 27 and Staves title
 BanSpecies: Sp
 BanBackgrounds: Fi Mo Hu As Ar Be AK CK Sk Tm Wr AM En Wz Cj Su Ne FE IE AE EE VM
+
+Name: The Merry
+Tier1: Enter Lair with Bows skill level above 10 as the highest skill
+Tier2: Acquire rune with Bows skill level above 20 as the highest skill
+Tier3: Win game with Bows skll level 27 and Bows title
+BanSpecies: DD Og Tr
+BanBackgrounds: Fi Gl Mo As Ar Be AK CK Sk Tm Wr En Wz Cj Su Ne FE IE AE EE VM
